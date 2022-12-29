@@ -12,6 +12,9 @@
 				"avoid-the-chromium-lazy-loading-broken-characters-bug.js",
 				"content.js"
 			],
+			"css": [
+				"content.css"
+			],
 			"default_icon": "icons-16.png"
 		}
 	],
