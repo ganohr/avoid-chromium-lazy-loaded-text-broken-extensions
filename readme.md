@@ -25,6 +25,6 @@ A few resources are using from [WordPress Plugins for Aboid Chromium Lazy Loaded
 * and then, run it!
 
 # Links
-* [WordPress Plugin](https://wordpress.org/plugins/avoid-the-chromium-lazy-loading-broken-characters-bug/)
-* [WordPress Plugin On GitHub](https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken)
+* [WordPress Plugin : Avoid Chromium Lazy Loaded Text Broken Bugs](https://wordpress.org/plugins/avoid-the-chromium-lazy-loading-broken-characters-bug/)
+  * [WordPress Plugin On GitHub](https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken)
 * [Developpers Site](https://ganohr.net/)
