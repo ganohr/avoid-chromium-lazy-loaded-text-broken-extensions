@@ -1,0 +1,34 @@
+{
+	"name": "Aclltbbe",
+	"description": "Aclltbbe - Avoid chromium lazy loaded text broken bugs for Extensions!",
+	"version": "0.0.2.0",
+	"manifest_version": 3,
+	"homepage_url": "https://ganohr.net/",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [
+				"jquery-3.6.3.min.js",
+				"avoid-the-chromium-lazy-loading-broken-characters-bug.js",
+				"content.js"
+			],
+			"default_icon": "icons-16.png"
+		}
+	],
+	"icons": {
+		"16": "icons-16.png",
+		"32": "icons-32.png",
+		"48": "icons-48.png",
+		"64": "icons-64.png",
+		"96": "icons-96.png",
+		"128": "icons-128.png"
+	},
+	"host_permissions": [
+		"https://script.google.com/*"
+	],
+	"action": {
+		"default_popup": "content.html"
+	},
+	"update_url": "https://raw.githubusercontent.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/main/updates.xml",
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp8Xe7SEvJUz8itSPPlFC4xtzltwOCaGf4UK9MCq+kOTEmja0esOR5rqBHbY1gjA2bm9aiIM6oH/JiN5PcqrqPORgCwVM6msbWkxaSU0XF6hTtV7TDopbwpHNIdOOBecC43gHoMgBaPlcAOOXzOul7SL1cjCjmFI4l5Mk0pRLG8BC0El7/kyczn0BnuHyyf9DLaOSww52vcjlmPO/zEVwLBz8aTl1y99rcJ3vG5ct/h3xkEb2NlIfuxKyEPqznQFpFofc1h5SWmIylFqhDcNtbVd7N3rd4kF7yjes14hvUh5RhPGMug+IqHJNmiiuE9ltBvBd257gcaMNGE3q3ZtuRwIDAQAB"
+}
