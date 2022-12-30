@@ -2,5 +2,6 @@
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
     <app appid="gcjbangcobcefiechdcobompenfaklkc">
         <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.crx" version="0.0.2.0" />
+        <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.crx" version="0.0.2.1" />
     </app>
 </gupdate>
