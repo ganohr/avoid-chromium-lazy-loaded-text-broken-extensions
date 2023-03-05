@@ -1,4 +1,4 @@
-# Avoid Chromium Lazy Loaded Text Broken Bugs For Extensions!
+# Aclltbbe - Avoid Chromium Lazy Loaded Text Broken Bugs For Extensions!
 This is a Chromium Extensions for [WordPress Plugins for Aboid Chromium Lazy Loaded Text Broken](https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken)!
 
 # Download
