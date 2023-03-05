@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>Avoid chromium lazy loaded text broken bugs for Extensions!</title>
+	<style>
+		body {
+			max-width: 415px;
+			min-width: 380px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 data-msg="optionEnabled">有効無効の制御</h1>
+	<img id="icon" src="icons-128.png" width="128" height="128" />
+	<p data-msg="optionEnabledHelp">
+		※ アイコンをクリックし、グレーアウトするとAclltbbeを無効化し、グレーアウトを解除するとAclltbbeがそのページで有効化され、文字崩れを改善します。
+	</p>
+	<h1>Aclltbbe</h1>
+	<p data-msg="extensionDescription">
+		『Aclltbbe』は、Chromiumブラウザで文字が潰れたり掠れたりするバグを強制的に修復します！
+	</p>
+	<p>
+		<a href="https://twitter.com/ganohr" target="_blank" rel="noopener,noreferrer" data-msg="linkTwitter">
+			開発者のTwitterへアクセスする
+		</a>
+	</p>
+	<p>
+		<a href="https://ganohr.net/" target="_blank" rel="noopener,noreferrer" data-msg="linkBlog">
+			開発者のブログへアクセスする
+		</a>
+	</p>
+	<p>
+		<a href="http://amzn.asia/gw9HHbg" target="_blank" rel="noopener,noreferrer" data-msg="linkDonate">
+			開発者を支援する
+		</a>
+	</p>
+	<script src="popup.js"></script>
+</body>
+
+</html>

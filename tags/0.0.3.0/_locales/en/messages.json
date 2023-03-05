@@ -1,0 +1,20 @@
+{
+	"extensionDescription": {
+		"message": "Aclltbbe - Avoid chromium lazy loaded text broken bugs for Extensions!"
+	},
+	"linkTwitter": {
+		"message": "Access the developer's Twitter"
+	},
+	"linkBlog": {
+		"message": "Visit the developer's blog"
+	},
+	"linkDonate": {
+		"message": "Donate the developer"
+	},
+	"optionEnabled": {
+		"message": "Enabled"
+	},
+	"optionEnabledHelp": {
+		"message": "* Click the icon and gray it out to disable Aclltbbe, and cancel the gray out to enable Aclltbbe on that page and improve the text collapse."
+	}
+}
