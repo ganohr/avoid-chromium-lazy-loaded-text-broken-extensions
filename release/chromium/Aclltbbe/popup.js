@@ -6,9 +6,14 @@ if (chrome !== undefined) {
 
 const icon = document.getElementById("icon");
 
+function buildUrl(url) {
+	const uri = new URL(url);
+	return uri.origin;
+}
+
 let href = null;
 browser.tabs.query({ active: true, currentWindow: true }, (e) => {
-	href = e[0].url;
+	href = buildUrl(e[0].url);
 });
 
 let options = null;
@@ -49,7 +54,7 @@ function enableIcon() {
 }
 
 browser.runtime.onMessage.addListener((message) => {
-	href = message.url;
+	href = buildUrl(message.url);
 	updateIconWithUrl(href);
 });
 

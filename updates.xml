@@ -4,5 +4,6 @@
         <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.zip" version="0.0.2.0" />
         <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.zip" version="0.0.2.1" />
         <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.zip" version="0.0.3.0" />
+        <updatecheck codebase="https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken-extensions/raw/main/release/Aclltbbe.zip" version="0.0.3.1" />
     </app>
 </gupdate>

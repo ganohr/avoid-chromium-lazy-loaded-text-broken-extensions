@@ -5,16 +5,21 @@ if (chrome !== undefined) {
 }
 
 const iconUpdator = (url) => {
-    browser.storage.sync.get(null, (opt) => {
-        if (opt === null || opt === undefined || opt.urls === null || opt.urls === undefined) {
-            return;
-        }
-        if (opt.urls.includes(url)) {
-            browser.action.setIcon({ path: "icons-16-g.png" });
-            return;
-        }
-        browser.action.setIcon({ path: "icons-16.png" });
-    });
+    try {
+        const uri = new URL(url);
+        browser.storage.sync.get(null, (opt) => {
+            if (opt === null || opt === undefined || opt.urls === null || opt.urls === undefined) {
+                return;
+            }
+            if (opt.urls.includes(uri.origin)) {
+                browser.action.setIcon({ path: "icons-16-g.png" });
+                return;
+            }
+            browser.action.setIcon({ path: "icons-16.png" });
+        });
+    } catch {
+        browser.action.setIcon({ path: "icons-16-g.png" });
+    }
 };
 
 browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {

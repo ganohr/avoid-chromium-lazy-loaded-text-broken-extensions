@@ -14,7 +14,8 @@ browser.storage.sync.get(null, (opt) => {
 	if (options.urls === undefined) {
 		options.urls = [];
 	}
-	if (!options.urls.includes(location.href)) {
+	const url = new URL(location.href);
+	if (!options.urls.includes(url.origin)) {
 		const already_running = document.getElementsByClassName('gaclltb_dummy');
 		if (already_running === null || already_running.length === 0) {
 			document.querySelectorAll("h1,h2,h3,h4,h5,h6,p,div,span,table").forEach(e => {
