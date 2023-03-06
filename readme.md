@@ -1,4 +1,4 @@
-# Avoid Chromium Lazy Loaded Text Broken Bugs For Extensions!
+# Aclltbbe - Avoid Chromium Lazy Loaded Text Broken Bugs For Extensions!
 This is a Chromium Extensions for [WordPress Plugins for Aboid Chromium Lazy Loaded Text Broken](https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken)!
 
 # Download
@@ -9,6 +9,11 @@ This is a Chromium Extensions for [WordPress Plugins for Aboid Chromium Lazy Loa
 1. Unzip it.
 1. Open Chrome or Edge, access to `chrome://extensions/` or `edge://extensions/`.
 1. And chose melted Folder.
+
+# How to use?
+1. Install it.
+1. Then access web-sites! (so automatically fix chromium lazy loaded text broken bugs!)
+1. If web page will broken when cause this extensions, click extensions icon and then popup the option window, and click "enable / disable" icon to gray-out!
 
 # Attensions!
 A few resources are using from [WordPress Plugins for Aboid Chromium Lazy Loaded Text Broken](https://github.com/ganohr/avoid-chromium-lazy-loaded-text-broken)!
